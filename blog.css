@@ -1,0 +1,256 @@
+*{
+    font-family: 'Work Sans' , sans-serif;
+    /*margin: 0px;*/
+    padding: 0px;
+}
+
+/* configurando a parte do header*/
+.header {
+    background-color:  #11181E;;
+    display: flex;
+    justify-content: space-between;
+    padding:  10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header>a{
+    color:  #fff ;
+}
+
+.menu {
+    color:  #fff ;
+    display: flex;
+    padding-right: 20px ;
+}
+
+.menu>li {
+    margin-left:  12px ;
+    list-style: none;
+    font: solid;
+}
+
+.menu>li>a {
+    display: block;
+    padding:  10px;
+    background-color:  /*#00FF22*/ rgb(153, 153, 153) ;
+    border-radius:  10px;
+    color:  #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*terminada a configuração do header e comecando a parte1 do blog*/
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(rgb(80, 80, 80), rgb(8, 8, 56) );
+    
+}
+
+section.parte1-blog{
+    background-image: url(imagens-blog/fundo-blog\ \(1\).png);
+    /*background-attachment: fixed;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px 10px;
+    border-top: groove 10px aqua;
+    height: 460px;
+}
+
+#blog-gs-name{
+    font-size: 2rem;
+    font-family: monospace , sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px 4px #11181E;
+    box-shadow: 2px 3px 5px rgb(61, 61, 61);
+    background-color: rgb(186, 25, 207);
+    border-radius: 30px;
+    border: groove 2px black;
+    max-width: 300px;
+}
+
+.apresentacao-blog{
+    font-size: 1.5rem;
+    margin: 50px;
+    text-shadow: 1px 2px 1px grey;
+    color: #fff;
+    padding: 20px;
+    max-width: 300px;
+    background-color: rgb(186, 25, 207);
+    border-radius: 20px 40px;
+    border: groove 3px black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+}
+
+.apresentacao-blog>p{
+    font-family: monospace , sans-serif;
+    text-align: justify;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+}
+
+#tele{
+    background-color: aqua;
+    font-size: 1.5rem;
+    margin: 50px;
+    color: #11181E;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 20px 40px;
+    border: groove 3px black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+}
+
+#tele>p{
+    font-family: monospace , sans-serif;
+    text-align: justify;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+}
+
+#tele>a{
+    background-color: rgb(8, 8, 37);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+}
+
+.primeiras-noticias>h2{
+    margin-left: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(37, 22, 37);
+    font-family: monospace , sans-serif;
+}
+
+
+.grid1-blog{
+    background-image:linear-gradient(rgb(176, 200, 243) ,rgb(45, 8, 56), rgb(15, 15, 22)  );
+    border: groove 3px rgba(0, 0, 0, 0.507);
+    display: grid;
+    grid-template-areas:  "a a b c"
+                          "d e f g";
+    padding: 20px;
+    gap: 10px;
+}
+
+.noticia1{
+    grid-area: a;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 10px;
+    border: groove 2px #11181E;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+}
+.noticia1>a>img{
+    width: 600px;
+}
+
+.noticia2{
+    grid-area: b;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 10px;
+    border: groove 2px #11181E;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+}
+
+.noticia3{
+    grid-area: c;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 10px;
+    border: groove 2px #11181E;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+}
+
+.noticia4{
+    grid-area: d;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 10px;
+    border: groove 2px #11181E;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+}
+
+.noticia5{
+    grid-area: e;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 10px;
+    border: groove 2px #11181E;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+}
+
+.noticia6{
+    grid-area: f;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 10px;
+    border: groove 2px #11181E;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+
+}
+
+.noticia7{
+    grid-area: g;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 10px;
+    border: groove 2px #11181E;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+}
+
+.grid1-blog>div>p{
+    background-color: rgb(58, 58, 58);
+    border-radius: 15px;
+    border: groove 2px rgb(206, 12, 157);
+    color: #fff;
+    padding: 8px;
+}
+
+footer{
+    background-color: rgba(63, 63, 63, 0.527);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/*agora vou começar a fazer a parte responsiva do site com @media*/
+
+
+@media ( max-width: 600px){
+    section.parte1-blog{
+        height: 420px;
+    }
+
+    .apresentacao-blog{
+        width: 300px;
+        font-size: 1rem;
+        margin: 0px;
+    }
+
+    #tele{
+        width: 300px;
+        font-size: 1rem;
+        margin: 0px;
+    }
+
+    .grid1-blog{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .noticia1>a>img{
+        max-width: 300px;
+    }
+
+
+}
