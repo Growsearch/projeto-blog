@@ -53,3 +53,12 @@ main.conteudo{
 .conteudo-lateral>p{
     padding-top: 10px;
 }
+
+@media(max-width:600px){
+    img{
+        width: 270px;
+    }
+    .centralizar>img{
+        width: 270px;
+    }
+}
