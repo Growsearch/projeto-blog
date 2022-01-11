@@ -23,6 +23,12 @@ body{
     color:  #fff ;
 }
 
+.header>a>img{
+    width: 170px;
+    height: 80px;
+}
+
+
 .menu {
     color:  #fff ;
     display: flex;
@@ -105,6 +111,14 @@ main.conteudo{
 
 .conteudo-lateral>p{
     padding-top: 10px;
+}
+
+footer{
+    margin-top: 35px;
+    background-color: rgba(63, 63, 63, 0.527);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
 }
 
 @media(max-width:600px){

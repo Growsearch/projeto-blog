@@ -6,7 +6,7 @@
 
 /* configurando a parte do header*/
 .header {
-    background-color:  #11181E;;
+    background-color:  #11181E;
     display: flex;
     justify-content: space-between;
     padding:  10px;
@@ -111,6 +111,14 @@ section.parte1-blog{
     text-decoration: none;
     color: #fff;
     padding: 8px;
+    border: groove 3px aqua;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#tele>a:hover{
+    border: 0px;
+
 }
 
 .primeiras-noticias>h2{
@@ -118,11 +126,12 @@ section.parte1-blog{
     color: #fff;
     text-shadow: 2px 2px 2px rgb(37, 22, 37);
     font-family: monospace , sans-serif;
+    text-align: center;
 }
 
 
 .grid1-blog{
-    background-image:linear-gradient(rgb(176, 200, 243) ,rgb(45, 8, 56), rgb(15, 15, 22)  );
+    background-image:linear-gradient(rgb(45, 8, 56), rgb(15, 15, 22)  );
     border: groove 3px rgba(0, 0, 0, 0.507);
     display: grid;
     grid-template-areas:  "a a b c"
