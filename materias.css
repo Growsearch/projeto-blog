@@ -119,6 +119,7 @@ footer{
     padding: 20px;
     text-align: center;
     color: #fff;
+    border-top: groove 4px rgb(186, 25, 207);
 }
 
 @media(max-width:600px){
