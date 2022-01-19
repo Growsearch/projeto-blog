@@ -51,25 +51,24 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-image: linear-gradient(rgb(80, 80, 80), rgb(8, 8, 56) );
-    
+    /*background-color: rgb(186, 25, 207);*/
+    background-image: linear-gradient( #11181E, rgb(186, 25, 207));
 }
 
 section.parte1-blog{
-    background-image: url(imagens-blog/fundo-blog\ \(1\).png);
-    /*background-attachment: fixed;*/
+    background-image: url(imagens-blog/fundo-blog.png);
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     color: #fff;
-    padding: 20px 10px;
     border-top: groove 10px rgb(186, 25, 207);
-    height: 460px;
+    height: 250px;
 }
 
 .apresentacao-blog{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     margin: 50px;
     text-shadow: 1px 2px 1px grey;
     color: #fff;
@@ -89,7 +88,7 @@ section.parte1-blog{
 
 #tele{
     background-color: aqua;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     margin: 50px;
     color: #11181E;
     padding: 20px;
@@ -121,17 +120,25 @@ section.parte1-blog{
 
 }
 
+.primeiras-noticias{
+    border-top: groove 5px #11181E;
+    color: #fff;
+    text-align: center;
+}
+
 .primeiras-noticias>h2{
     margin-left: 20px;
-    color: #fff;
-    text-shadow: 2px 2px 2px rgb(37, 22, 37);
-    font-family: monospace , sans-serif;
-    text-align: center;
+    text-shadow: 2px 2px 5px rgb(37, 22, 37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#introducao{
+    font-size: 22px;
 }
 
 .grid1-blog{
     /*background-image:linear-gradient(rgb(45, 8, 56), rgb(15, 15, 22)  );*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.404) , rgba(4, 19, 26, 0.534));
+    background-image: linear-gradient(rgb(186, 25, 207),#11181e);
     border: groove 3px rgba(0, 0, 0, 0.507);
     display: grid;
     grid-template-areas:  "a a b c"
@@ -142,7 +149,7 @@ section.parte1-blog{
 
 .noticia1{
     grid-area: a;
-    background-color: rgba(255, 255, 255, 0.274);
+    background-color: #11181E;
     padding: 10px;
     border: groove 2px #11181E;
     border-radius: 20px;
@@ -154,7 +161,7 @@ section.parte1-blog{
 
 .noticia2{
     grid-area: b;
-    background-color: rgba(255, 255, 255, 0.274);
+    background-color: #11181E;
     padding: 10px;
     border: groove 2px #11181E;
     border-radius: 20px;
@@ -166,7 +173,7 @@ section.parte1-blog{
 
 .noticia3{
     grid-area: c;
-    background-color: rgba(255, 255, 255, 0.274);
+    background-color: #11181E;
     padding: 10px;
     border: groove 2px #11181E;
     border-radius: 20px;
@@ -175,7 +182,8 @@ section.parte1-blog{
 
 .noticia4{
     grid-area: d;
-    background-color: rgba(255, 255, 255, 0.274);
+    /*background-color: rgba(165, 165, 165, 0.589);*/
+    background-color: #11181E;
     padding: 10px;
     border: groove 2px #11181E;
     border-radius: 20px;
@@ -184,7 +192,8 @@ section.parte1-blog{
 
 .noticia5{
     grid-area: e;
-    background-color: rgba(255, 255, 255, 0.274);
+    /*background-color: rgba(165, 165, 165, 0.589);*/
+    background-color: #11181E;
     padding: 10px;
     border: groove 2px #11181E;
     border-radius: 20px;
@@ -193,7 +202,8 @@ section.parte1-blog{
 
 .noticia6{
     grid-area: f;
-    background-color: rgba(255, 255, 255, 0.274);
+   /* background-color: rgba(165, 165, 165, 0.589);*/
+   background-color: #11181E;
     padding: 10px;
     border: groove 2px #11181E;
     border-radius: 20px;
@@ -203,7 +213,8 @@ section.parte1-blog{
 
 .noticia7{
     grid-area: g;
-    background-color: rgba(255, 255, 255, 0.274);
+    /*background-color: rgba(165, 165, 165, 0.589);*/
+    background-color: #11181E;
     padding: 10px;
     border: groove 2px #11181E;
     border-radius: 20px;
