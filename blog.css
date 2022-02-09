@@ -12,6 +12,7 @@
     padding:  10px;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: groove 5px rgb(120, 15, 134);
 }
 
 .header>a{
@@ -33,7 +34,7 @@
 .menu>li>a {
     display: block;
     padding:  10px;
-    background-color:  rgb(186, 25, 207);
+    background-color:  rgb(120, 15, 134);
     border: groove 2px white;
     border-radius:  10px;
     color:  #ffffff;
@@ -52,7 +53,7 @@ body{
     padding: 0px;
     margin: 0px;
     /*background-color: rgb(186, 25, 207);*/
-    background-image: linear-gradient( #11181E, rgb(186, 25, 207));
+    background-image: linear-gradient( #11181E, rgb(120, 15, 134));
 }
 
 section.parte1-blog{
@@ -138,7 +139,7 @@ section.parte1-blog{
 
 .grid1-blog{
     /*background-image:linear-gradient(rgb(45, 8, 56), rgb(15, 15, 22)  );*/
-    background-image: linear-gradient(rgb(186, 25, 207),#11181e);
+    background-image: linear-gradient(rgb(120, 15, 134),#11181e);
     border: groove 3px rgba(0, 0, 0, 0.507);
     display: grid;
     grid-template-areas:  "a a b c"
