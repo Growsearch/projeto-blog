@@ -1,6 +1,6 @@
 *{
     font-family: 'Work Sans' , sans-serif;
-    /*margin: 0px;*/
+    margin: 0px;
     padding: 0px;
 }
 
@@ -20,36 +20,34 @@
 
 /* configurando a parte do header*/
 .header {
-    background-color:  #11181E;
+    background-color:  #1b1f22;
     display: flex;
     justify-content: space-between;
     padding:  10px;
     align-items: center;
     flex-wrap: wrap;
-    border-bottom: groove 5px rgb(120, 15, 134);
-}
-
-.header>a{
-    color:  #fff ;
+    border-bottom: groove 8px #7500ac;
+    height: 70px;
+    margin-bottom: 30px;
 }
 
 .menu {
-    color:  #fff ;
     display: flex;
     padding-right: 20px ;
 }
 
-.menu>li {
+.menu > li {
     margin-left:  12px ;
     list-style: none;
     font: solid;
+    color: #fff;
 }
 
-.menu>li>a {
+.menu > li > a {
     display: block;
     padding:  10px;
-    background-color:  rgb(120, 15, 134);
-    border: groove 2px white;
+    background-color:  #7500ac;
+    border: groove 2px #1b1f22;
     border-radius:  10px;
     color:  #ffffff;
     text-decoration: none;
@@ -57,7 +55,7 @@
 }
 
 .menu>li>a:hover{
-    color: rgb(186, 25, 207);
+    color: #b31ef8;
     background-color: rgba(0, 0, 0, 0.349);
 }
 
