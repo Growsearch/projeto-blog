@@ -14,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(120, 15, 134);
+    background: #7500ac;
     border-radius: 30px;
 }
 
@@ -65,7 +65,7 @@ body{
     padding: 0px;
     margin: 0px;
     /*background-color: rgb(186, 25, 207);*/
-    background-image: linear-gradient( #11181E, rgb(120, 15, 134));
+    background-image: linear-gradient( #11181E, #7500ac);
 }
 
 section.parte1-blog{
@@ -76,7 +76,7 @@ section.parte1-blog{
     align-items: center;
     justify-content: space-between;
     color: #fff;
-    border-top: groove 10px rgb(186, 25, 207);
+    border-top: groove 10px #7500ac;
     height: 250px;
 }
 
@@ -87,10 +87,10 @@ section.parte1-blog{
     color: #fff;
     padding: 20px;
     max-width: 300px;
-    background-color: rgb(186, 25, 207);
+    background-color: #7500ac;
     border-radius: 20px 40px;
     border: groove 3px white;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.692);
 }
 
 .apresentacao-blog>p{
@@ -134,9 +134,7 @@ section.parte1-blog{
 }
 
 .primeiras-noticias{
-    border-top: groove 5px #11181E;
     color: #fff;
-    text-align: center;
 }
 
 .primeiras-noticias>h2{
@@ -146,96 +144,83 @@ section.parte1-blog{
 }
 
 #introducao{
-    font-size: 22px;
+    font-size: 17px;
+    margin: 5px 0px 5px 15px;
 }
 
 .grid1-blog{
     /*background-image:linear-gradient(rgb(45, 8, 56), rgb(15, 15, 22)  );*/
-    background-image: linear-gradient(rgb(120, 15, 134),#11181e);
-    border: groove 3px rgba(0, 0, 0, 0.507);
+    background: #11181e;
+    border: groove 3px rgba(139, 4, 202, 0.658);
     display: grid;
-    grid-template-areas:  "a a b c"
-                          "d e f g";
-    padding: 20px;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-areas:  "a b c d e f";                     
+    padding: 10px;
     gap: 10px;
+    margin-bottom: 40px;
+    overflow-x: scroll;
+}
+
+.grid1-blog::-webkit-scrollbar{
+    height: 8px; 
+   
+}
+
+.grid1-blog::-webkit-scrollbar-corner {
+    margin-top: 100px;
+}
+
+.grid1-blog::-webkit-scrollbar-thumb {
+    background: #00da91;
 }
 
 .noticia1{
     grid-area: a;
-    background-color: #11181E;
-    padding: 10px;
-    border: groove 2px #11181E;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
-}
-.noticia1>a>img{
-    width: 600px;
 }
 
-.noticia2{
+.noticia2 {
     grid-area: b;
-    background-color: #11181E;
-    padding: 10px;
-    border: groove 2px #11181E;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
-}
-.noticia2>a>img{
-    width: 300px;
 }
 
 .noticia3{
     grid-area: c;
-    background-color: #11181E;
-    padding: 10px;
-    border: groove 2px #11181E;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
 }
 
 .noticia4{
     grid-area: d;
     /*background-color: rgba(165, 165, 165, 0.589);*/
-    background-color: #11181E;
-    padding: 10px;
-    border: groove 2px #11181E;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
 }
 
-.noticia5{
+.noticia5 {
     grid-area: e;
     /*background-color: rgba(165, 165, 165, 0.589);*/
-    background-color: #11181E;
-    padding: 10px;
-    border: groove 2px #11181E;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
 }
 
 .noticia6{
     grid-area: f;
    /* background-color: rgba(165, 165, 165, 0.589);*/
-   background-color: #11181E;
-    padding: 10px;
+}
+
+.noticia1 , .noticia2 , .noticia3 , .noticia4, .noticia5 , .noticia6 {
+    margin: auto;
+    padding: 8px;
+    align-items: flex-start;
+    text-align: center;
+    font-size: .8rem;
+    width: 250px;
+    background-color: #7500ac;
     border: groove 2px #11181E;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+    height: 300px;
+} 
 
-}
+.noticia1>a>img, .noticia2>a>img , .noticia3>a>img , .noticia4>a>img, .noticia5>a>img , .noticia6>a>img {
+    width: 240px;
+} 
 
-.noticia7{
-    grid-area: g;
-    /*background-color: rgba(165, 165, 165, 0.589);*/
-    background-color: #11181E;
-    padding: 10px;
-    border: groove 2px #11181E;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
-}
-
-.noticia1:hover , .noticia2:hover , .noticia3:hover, .noticia4:hover, .noticia5:hover , .noticia6:hover , .noticia7:hover{
-    background-color: rgb(186, 25, 207);
+.noticia1:hover , .noticia2:hover , .noticia3:hover, .noticia4:hover, .noticia5:hover , .noticia6:hover {
+    background-color: rgb(171, 25, 207);
 }
 
 .grid1-blog>div>p{
