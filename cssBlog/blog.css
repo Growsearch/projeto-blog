@@ -153,10 +153,10 @@ section.parte1-blog{
     background: #11181e;
     border: groove 3px rgba(139, 4, 202, 0.658);
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 270px 270px 270px 270px;
     grid-template-areas:  "a b c d e f";                     
     padding: 10px;
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 40px;
     overflow-x: scroll;
 }
@@ -215,7 +215,7 @@ section.parte1-blog{
     align-items: flex-start;
     text-align: center;
     font-size: .8rem;
-    width: 250px;
+    width: 240px;
     background-color: #7500ac;
     border: groove 2px #11181E;
     border-radius: 20px;
@@ -223,13 +223,9 @@ section.parte1-blog{
     height: 300px;
 } 
 
-.noticia1>a>img, .noticia2>a>img , .noticia3>a>img , .noticia4>a>img, .noticia5>a>img , .noticia6>a>img {
-    width: 240px;
-} 
-
-.noticia1:hover , .noticia2:hover , .noticia3:hover, .noticia4:hover, .noticia5:hover , .noticia6:hover {
-    background-color: rgb(171, 25, 207);
-}
+/*.noticia1:hover , .noticia2:hover , .noticia3:hover, .noticia4:hover, .noticia5:hover , .noticia6:hover {
+    background: url(imagens-blog/GS_atual-removebg-preview.png);
+}*/
 
 .grid1-blog>div>p{
     background-color: rgb(58, 58, 58);
@@ -244,42 +240,4 @@ footer{
     padding: 20px;
     text-align: center;
     color: #fff;
-}
-
-/*agora vou começar a fazer a parte responsiva do site com @media*/
-
-
-@media ( max-width: 600px){
-
-    .menu>li>a{
-        background-color: rgb(120, 15, 134);
-    }
-
-    section.parte1-blog{
-        height: 420px;
-    }
-
-    .apresentacao-blog{
-        width: 300px;
-        font-size: 1rem;
-        margin: 0px;
-    }
-
-    #tele{
-        width: 300px;
-        font-size: 1rem;
-        margin: 0px;
-    }
-
-    .grid1-blog{
-        display: flex;
-        flex-wrap: wrap;
-        background-image: linear-gradient(#11181E , rgb(120, 15, 134));
-    }
-
-    .noticia1>a>img{
-        max-width: 300px;
-    }
-
-
 }

@@ -1,0 +1,49 @@
+@media ( max-width: 600px){
+
+    .menu>li>a{
+        background-color: rgb(120, 15, 134);
+    }
+
+    section.parte1-blog{
+        height: 420px;
+    }
+
+    .apresentacao-blog{
+        width: 300px;
+        font-size: 1rem;
+        margin: 0px;
+    }
+
+    #tele{
+        width: 300px;
+        font-size: 1rem;
+        margin: 0px;
+    }
+
+    .grid1-blog{
+        display: grid;
+        grid-template-columns: 140px 140px 140px 140px;
+        grid-template-areas:  "a b c d e f";   
+        gap: 10px;                 
+        background-image: linear-gradient(#11181E , rgb(120, 15, 134));
+        overflow-x: scroll
+    }
+
+    .grid1-blog::-webkit-scrollbar{
+        height: 8px; 
+    }
+    
+    .grid1-blog::-webkit-scrollbar-corner {
+        margin-top: 100px;
+    }
+    
+    .grid1-blog::-webkit-scrollbar-thumb {
+        background: #00da91;
+    }
+
+    .noticia1 , .noticia2 , .noticia3 , .noticia4, .noticia5 , .noticia6 {
+        width: 120px;
+        height: 180px;
+}
+
+}
