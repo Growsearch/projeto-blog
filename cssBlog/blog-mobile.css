@@ -25,7 +25,7 @@
         grid-template-columns: 140px 140px 140px 140px;
         grid-template-areas:  "a b c d e f";   
         gap: 10px;                 
-        background-image: linear-gradient(#11181E , #913AF3);
+        background-image: linear-gradient(#272d31 , #903af32d);
         overflow-x: scroll
     }
 
@@ -38,7 +38,7 @@
     }
     
     .grid1-blog::-webkit-scrollbar-thumb {
-        background: #00da91;
+        background: #e7e7e7;
     }
 
     .noticia1 , .noticia2 , .noticia3 , .noticia4, .noticia5 , .noticia6 {
